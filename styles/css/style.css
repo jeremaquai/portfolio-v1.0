@@ -1,0 +1,108 @@
+
+/* Global Styles */
+.hide {
+  display: none;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  background-image: url('https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png');
+}
+  
+h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+a {
+  padding: 0 20px;
+  margin: 0;
+}
+
+/* Module Styles */
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url(../../styles/images/mountain.jpg);
+  background-size: 100% 100%;
+  color: #000;
+  min-height: 500px;
+  height: auto;
+}
+
+.jumbotron h2 {
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #000;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #111;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.col-md-6 {
+  margin: 0 0 30px;
+}
+
+
+
+.portrait {
+  width:  350px;
+  height: 300px;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+figure {
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+  
+footer ul {
+    list-style: none;
+}
+
+#projects h2 {
+  font-weight: 600;
+}
+
+#projects {
+  align-content: center;
+  text-align: center;
+}
+
+#projects li,
+#projects a {
+  padding: .5rem;
+  text-align: left;
+}
+  
